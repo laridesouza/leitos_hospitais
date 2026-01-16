@@ -96,4 +96,4 @@ leitos["PORTE_HOSPITAL"] = leitos["LEITOS_EXISTENTES"].apply(classificar_porte)
 # %%
 
 leitos.to_csv("data\leitos_hospitais.csv", index=False)
-leitos.head()
+
