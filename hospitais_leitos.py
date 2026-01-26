@@ -58,6 +58,6 @@ def classificar_porte(qtd_leitos):
 leitos["PORTE_HOSPITAL"] = leitos["LEITOS_EXISTENTES"].apply(classificar_porte)
 
 # exportação do arquivo tratado
-leitos.to_csv("data\Leitos_2025_tratado", index=False)
+leitos.to_csv("data\Leitos_2025_tratado.csv", index=False)
 
 
